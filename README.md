@@ -1,22 +1,20 @@
 # Cloudflare Best IP
 
-Cloudflare 优选 IP 分地区 Top 10 列表。
+Cloudflare 优选 IP 自动更新，每日扫描一次。
+
+**最后更新：2026-09-04 00:03:34**
 
 ## 文件说明
 
-- `Cloudflare优选IP_分地区Top10.txt` — 按地区分组的优选IP，每个地区取延迟最低的前10个
+- `cfdata_raw.txt` — CFData 原始扫描结果（全部合格IP）
+- `Cloudflare优选IP_分地区Top10.txt` — 按地区分组，每地区前10名
 
-## 地区概览
+## 地区延迟总览
 
 | 地区 | 最低延迟 | 节点数 |
 |------|----------|--------|
-| 🇸🇬 新加坡 | 51ms | 99 |
-| 🇯🇵 东京 | 60ms | 8 |
-| 🇺🇸 洛杉矶 | 164ms | 549 |
-| 🇺🇸 圣何塞 | 166ms | 12 |
-| 🇩🇪 法兰克福 | 182ms | 694 |
-| 🇬🇧 伦敦 | 189ms | 34 |
-| 🇳🇱 阿姆斯特丹 | 192ms | 224 |
-| 🇦🇺 悉尼 | 378ms | 16 |
+| SG - Singapore (SIN) | 56ms | 99 |
 
-数据来源：优选IP扫描结果
+## 工具
+
+使用 [CFData-WEB](https://github.com/PoemMisty/CFData-WEB) 自动扫描。
